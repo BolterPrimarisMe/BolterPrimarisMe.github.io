@@ -40,13 +40,10 @@ public class UserFormApp {
         ButtonGroup genderGroup = new ButtonGroup();
         maleButton = new JRadioButton("Male");
         femaleButton = new JRadioButton("Female");
-        otherButton = new JRadioButton("Other");
         genderGroup.add(maleButton);
-        genderGroup.add(femaleButton);
-        genderGroup.add(otherButton);
+        genderGroup.add(femaleButton);  
         genderPanel.add(maleButton);
         genderPanel.add(femaleButton);
-        genderPanel.add(otherButton);
         frame.add(genderPanel);
 
         // Agreement Checkbox
